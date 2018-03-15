@@ -1,7 +1,13 @@
-struct LookupError: Error {
-    let errorDescription: String?
+enum LookupError: Error {
+    case cannotLoadData
+    case cannotParseData
 
-    init(_ message: String) {
-        self.errorDescription = message
+    func description() -> String {
+        switch self {
+        case .cannotLoadData:
+            return "Cannot download data from server"
+        case .cannotParseData:
+            return "Cannot parse downloaded data"
+        }
     }
 }
