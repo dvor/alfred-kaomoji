@@ -27,7 +27,6 @@ do {
             "uid": url.absoluteString,
             "type": "default",
             "title": $0["text"],
-            "autocomplete": $0["text"],
             "quicklookurl": url.absoluteString,
             "arg": $0["text"],
         ]}
