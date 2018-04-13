@@ -4,7 +4,7 @@ Alfred workflow for looking up emoji and kaomoji. Both are loaded from getdango.
 
 ## Download
 
-Download version 1.0.0 [kaomoji](https://github.com/dvor/alfred-kaomoji/releases/download/1.0.0/kaomoji.alfredworkflow).
+Download version 1.0.1 [kaomoji](https://github.com/dvor/alfred-kaomoji/releases/download/1.0.1/kaomoji.alfredworkflow).
 
 ## Usage
 
